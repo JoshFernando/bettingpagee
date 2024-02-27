@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #282c35; /* Dark Grayish Blue */
+    color: #fff;
+}
+
+nav .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #373d49; /* Darker Grayish Blue */
+}
+
+nav h1 {
+    margin: 0;
+    color: #61dafb; /* Bright Blue */
+}
+
+#connectWalletButton {
+    order: 3; /* Set the order to place it at the end */
+}
+
+.user-display {
+    order: 2; /* Set the order to place it before the button */
+    color: #000; /* Black color */
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+button {
+    cursor: pointer;
+    background-color: #61dafb; /* Bright Blue */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4fa3d1; /* Slightly darker blue on hover */
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: #373d49; /* Darker Grayish Blue */
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#betForm {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #4fa3d1; /* Bright Blue */
+}
+
+.leaderboard-entries {
+    background-color: #282c35; /* Dark Grayish Blue */
+    padding: 10px;
+    border-radius: 8px;
+}

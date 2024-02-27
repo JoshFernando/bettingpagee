@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarkBet - Gas Fee Betting Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.5.0.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1>StarkBet</h1>
+            <div id="userDisplay" class="user-display"></div>
+            <button id="connectWalletButton">Connect Wallet</button>
+        </div>
+    </nav>
+    <main>
+        <section id="leaderboard" class="card">
+            <h2>Leaderboard</h2>
+            <div class="leaderboard-entries">Loading...</div>
+        </section>
+        <section id="betFormSection" class="card">
+            <h2>Place Your Bet</h2>
+            <form id="betForm">
+                <input type="number" placeholder="Enter your gas fee guess" required>
+                <button type="submit" class="primary-button">Submit</button>
+            </form>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
